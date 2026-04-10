@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBridge - Seu Caminho para o Sucesso</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-bridge"></i> TechBridge
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#faculdades">Faculdades</a></li>
+                <li><a href="#empregos">Empregos</a></li>
+                <li><a href="#negocios">Negócios</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span class="hamburger"></span>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bem-vindo ao TechBridge</h1>
+            <p>Sua ponte para o sucesso após o ensino médio técnico</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('faculdades')">Explorar Faculdades</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('empregos')">Ver Oportunidades</button>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Por que TechBridge?</h2>
+            <div class="sobre-grid">
+                <div class="sobre-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Faculdades</h3>
+                    <p>Encontre as melhores instituições de ensino superior e cursos que se alinham com sua carreira técnica.</p>
+                </div>
+                <div class="sobre-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Empregos</h3>
+                    <p>Acesso a oportunidades de trabalho que valorizam sua formação técnica e experiência.</p>
+                </div>
+                <div class="sobre-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Empreendedorismo</h3>
+                    <p>Guias e recursos para transformar sua ideia em negócio de sucesso.</p>
+                </div>
+                <div class="sobre-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Networking</h3>
+                    <p>Conecte-se com profissionais, mentores e outros alunos em sua jornada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faculdades" class="faculdades">
+        <div class="container">
+            <h2>Faculdades Recomendadas</h2>
+            <div class="faculdades-grid">
+                <div class="faculdade-card">
+                    <div class="faculdade-header">
+                        <h3>USP</h3>
+                        <span class="tag">São Paulo</span>
+                    </div>
+                    <p>Universidade de São Paulo oferece cursos de pós-técnico com excelente infraestrutura e renome internacional.</p>
+                    <ul class="cursos-list">
+                        <li><i class="fas fa-check"></i> Engenharia</li>
+                        <li><i class="fas fa-check"></i> Tecnologia</li>
+                        <li><i class="fas fa-check"></i> Administração</li>
+                    </ul>
+                    <button class="btn btn-outline">Saiba Mais</button>
+                </div>
+
+                <div class="faculdade-card">
+                    <div class="faculdade-header">
+                        <h3>UNICAMP</h3>
+                        <span class="tag">Campinas</span>
+                    </div>
+                    <p>Universidade Estadual de Campinas com forte foco em inovação e pesquisa tecnológica.</p>
+                    <ul class="cursos-list">
+                        <li><i class="fas fa-check"></i> Computação</li>
+                        <li><i class="fas fa-check"></i> Eletrônica</li>
+                        <li><i class="fas fa-check"></i> Mecânica</li>
+                    </ul>
+                    <button class="btn btn-outline">Saiba Mais</button>
+                </div>
+
+                <div class="faculdade-card">
+                    <div class="faculdade-header">
+                        <h3>FATEC</h3>
+                        <span class="tag">Vários Estados</span>
+                    </div>
+                    <p>Faculdades de Tecnologia do Estado de São Paulo especializada em ensino técnico superior.</p>
+                    <ul class="cursos-list">
+                        <li><i class="fas fa-check"></i> Desenvolvimento de Software</li>
+                        <li><i class="fas fa-check"></i> Redes de Computadores</li>
+                        <li><i class="fas fa-check"></i> Automação Industrial</li>
+                    </ul>
+                    <button class="btn btn-outline">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="empregos" class="empregos">
+        <div class="container">
+            <h2>Oportunidades de Emprego</h2>
+            <div class="empregos-grid">
+                <div class="emprego-card">
+                    <div class="emprego-header">
+                        <h3>Desenvolvedor Junior</h3>
+                        <span class="salary">R$ 2.500 - R$ 4.000</span>
+                    </div>
+                    <p class="empresa">Tech Solutions</p>
+                    <p class="descricao">Procuramos desenvolvedores iniciantes com formação técnica em programação. Ideal para quem está começando a carreira.</p>
+                    <div class="requisitos">
+                        <span class="requisito">HTML/CSS</span>
+                        <span class="requisito">JavaScript</span>
+                        <span class="requisito">Comunicação</span>
+                    </div>
+                    <button class="btn btn-primary">Candidatar</button>
+                </div>
+
+                <div class="emprego-card">
+                    <div class="emprego-header">
+                        <h3>Técnico de Suporte</h3>
+                        <span class="salary">R$ 2.000 - R$ 3.500</span>
+                    </div>
+                    <p class="empresa">InfoTech Systems</p>
+                    <p class="descricao">Suporte técnico remoto para empresa em expansão. Oportunidade para evoluir em carreira de T.I.</p>
+                    <div class="requisitos">
+                        <span class="requisito">Help Desk</span>
+                        <span class="requisito">Redes</span>
+                        <span class="requisito">Troubleshooting</span>
+                    </div>
+                    <button class="btn btn-primary">Candidatar</button>
+                </div>
+
+                <div class="emprego-card">
+                    <div class="emprego-header">
+                        <h3>Analista de Dados Trainee</h3>
+                        <span class="salary">R$ 2.800 - R$ 4.500</span>
+                    </div>
+                    <p class="empresa">Data Analytics Co.</p>
+                    <p class="descricao">Posição de trainee para expandir equipe. Queremos quem tenha formação técnica em lógica e matemática.</p>
+                    <div class="requisitos">
+                        <span class="requisito">Excel</span>
+                        <span class="requisito">SQL</span>
+                        <span class="requisito">Python</span>
+                    </div>
+                    <button class="btn btn-primary">Candidatar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="negocios" class="negocios">
+        <div class="container">
+            <h2>Guia de Empreendedorismo</h2>
+            <div class="guias-grid">
+                <div class="guia-card">
+                    <div class="guia-number">1</div>
+                    <h3>Identifique sua Ideia</h3>
+                    <p>Comece identificando um problema que você sabe resolver através de sua formação técnica. Qual é o seu diferencial?</p>
+                    <a href="#" class="link-arrow">Começar <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="guia-card">
+                    <div class="guia-number">2</div>
+                    <h3>Valide seu Mercado</h3>
+                    <p>Pesquise se existe demanda. Converse com possíveis clientes e entenda as necessidades reais do mercado.</p>
+                    <a href="#" class="link-arrow">Começar <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="guia-card">
+                    <div class="guia-number">3</div>
+                    <h3>Crie um Plano de Negócio</h3>
+                    <p>Estruture sua ideia em um plano viável. Defina objetivos, estratégias e projeções financeiras realistas.</p>
+                    <a href="#" class="link-arrow">Começar <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="guia-card">
+                    <div class="guia-number">4</div>
+                    <h3>Acesse Financiamento</h3>
+                    <p>Conheça opções de crédito, microcrédito, investidores e programas de apoio a startups disponíveis.</p>
+                    <a href="#" class="link-arrow">Começar <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="guia-card">
+                    <div class="guia-number">5</div>
+                    <h3>Regularize seu Negócio</h3>
+                    <p>Formalize sua empresa. Entenda MEI, CNPJ e estruturas tributárias mais adequadas para seu negócio.</p>
+                    <a href="#" class="link-arrow">Começar <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="guia-card">
+                    <div class="guia-number">6</div>
+                    <h3>Lance e Escale</h3>
+                    <p>Com tudo estruturado, lance seu produto ou serviço. Crie uma estratégia de crescimento sustentável.</p>
+                    <a href="#" class="link-arrow">Começar <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter">
+        <div class="container">
+            <h2>Fique Atualizado</h2>
+            <p>Receba dicas, oportunidades e insights sobre carreira diretamente no seu email</p>
+            <form class="newsletter-form" onsubmit="handleNewsletterSubmit(event)">
+                <input type="email" placeholder="Seu melhor email" required>
+                <button type="submit" class="btn btn-primary">Inscrever</button>
+            </form>
+        </div>
+    </section>
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contato@techbridge.com.br</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(11) 3000-0000</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>São Paulo, Brasil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contato-form" onsubmit="handleContactSubmit(event)">
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu email" required>
+                    <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 TechBridge. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
